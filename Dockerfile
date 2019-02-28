@@ -1,7 +1,7 @@
 FROM williamyeh/ansible:debian9
 
-ENV DOCKER_VERSION 18.03.1-ce
-ENV COMPOSE_VERSION 1.22.0
+ENV DOCKER_VERSION 18.09.2
+ENV COMPOSE_VERSION 1.23.2
 
 RUN curl -Lo docker.tgz https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz \
   && tar xzvf docker.tgz \
